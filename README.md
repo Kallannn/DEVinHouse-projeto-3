@@ -83,10 +83,10 @@ Vai ficar Bagunçado de eu continuar traduzindo então será apenas inglês de a
 ###### id : the ID of the user you want to register the financial data in (replace :id in the URL with the user id)
 ###### File
 ###### file: a xlsx file containg the columns:<br />
-###### price : The price of the expense <br />
-###### typesOfExpenses : A descriptiong of the expense <br />
-###### date : The date of the expense <br />
-###### name : A name to be related to the expense <br />
+######    price : The price of the expense <br />
+######    typesOfExpenses : A descriptiong of the expense <br />
+######    date : The date of the expense <br />
+######    name : A name to be related to the expense <br />
 ###### If one of these columns is missing in the file or the file has columns other than these, it will fail to be registered. <br />
 ###### The expense date must be written in YYYY-MM-DD format.
 <br /><br />
