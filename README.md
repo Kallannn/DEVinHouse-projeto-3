@@ -14,7 +14,8 @@ Deve ter um jeito melhor de fazer isso mas esse é o jeito que eu tenho feito. <
 Faça o download do repositório, abra a pasta DEVinHouse-projeto-3 com Visual Studio Code. abra a apasta no console integrado e use o commando 'npm start' <br />
 
 ## endpoints
-This will be a mess if I keep on translating so I'll only use english from now on <br /><br />
+This will be a mess if I keep on translating so I'll only use english from now on <br />
+Vai ficar Bagunçado de eu continuar traduzindo então será apenas inglês de agora em diante <br /><br />
 
 ### User
 
@@ -40,7 +41,7 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ##### Requirements
 ###### Body
 ###### A JSON object containing the name and email of the user.
-###### Example
+###### Body Example
 ###### {"name":"username", "email":"username@email.test"}
 <br /><br />
 
@@ -52,7 +53,7 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### id : the ID of the user you want to update (replace :id in the URL with the user id)
 ###### Body
 ###### A JSON object containing the name and email of the user.
-###### Example
+###### Body Example
 ###### {"name":"username", "email":"username@email.test"}
 <br /><br />
 
