@@ -13,7 +13,7 @@ Download the repository, open the DEVinHouse-projeto-3 folder in Visual Studio C
 Deve ter um jeito melhor de fazer isso mas esse é o jeito que eu tenho feito. <br />
 Faça o download do repositório, abra a pasta DEVinHouse-projeto-3 com Visual Studio Code. abra a apasta no console integrado e use o commando 'npm start' <br />
 
-## endpoints
+## Endpoints
 This will be a mess if I keep on translating so I'll only use english from now on <br />
 Vai ficar Bagunçado de eu continuar traduzindo então será apenas inglês de agora em diante <br /><br />
 
@@ -108,6 +108,6 @@ Vai ficar Bagunçado de eu continuar traduzindo então será apenas inglês de a
 ###### userId : the ID of the user you want to get the financial data from (replace :userId in the URL with the user id)
 <br /><br />
 
-
-
-
+## Known Issues
+Due to the lack of time specification in the YYYY-MM-DD date format, the time will be considered 00:00. This will cause the date January 1st to be considered part of the previous year. <br /><br />
+Devido a falta de especificação de horário do formato YYYY-MM-DD, o horário será considerado como 00:00. Isso fará a data 1 de Janeiro ser considerada pertencente ao ano anterior.
