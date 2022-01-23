@@ -30,7 +30,7 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will return the user with the specified id
 ##### Requirements
 ###### Path
-####### id : the ID of the user you want to look for (replace :id in the URL with the user id)
+###### id : the ID of the user you want to look for (replace :id in the URL with the user id)
 <br /><br />
 
 
@@ -39,9 +39,9 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will register a new user
 ##### Requirements
 ###### Body
-####### A JSON object containing the name and email of the user.
-####### Example
-######## {"name":"username", "email":"username@email.test"}
+###### A JSON object containing the name and email of the user.
+###### Example
+###### {"name":"username", "email":"username@email.test"}
 <br /><br />
 
 #### /user/:id PATCH
@@ -49,11 +49,11 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will update an already registered user
 ##### Requirements
 ###### Path
-####### id : the ID of the user you want to update (replace :id in the URL with the user id)
+###### id : the ID of the user you want to update (replace :id in the URL with the user id)
 ###### Body
-####### A JSON object containing the name and email of the user.
-####### Example
-######## {"name":"username", "email":"username@email.test"}
+###### A JSON object containing the name and email of the user.
+###### Example
+###### {"name":"username", "email":"username@email.test"}
 <br /><br />
 
 #### /user/:id DELETE
@@ -61,7 +61,7 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will delete a registered user
 ##### Requirements
 ###### Path
-####### id : the ID of the user you want to delete (replace :id in the URL with the user id)
+###### id : the ID of the user you want to delete (replace :id in the URL with the user id)
 <br /><br />
 
 ### Finance
@@ -71,7 +71,7 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will return the registered financial data of the specified user
 ##### Requirements
 ###### Path
-####### id : the ID of the user you want to get the financial data from (replace :id in the URL with the user id)
+###### id : the ID of the user you want to get the financial data from (replace :id in the URL with the user id)
 <br /><br />
 
 #### /user/:userId/finance POST
@@ -79,9 +79,9 @@ This will be a mess if I keep on translating so I'll only use english from now o
 ###### Will register a single or multiple expenses according to the uploaded xlsx sheet.
 ##### Requirements
 ###### Path
-####### id : the ID of the user you want to register the financial data in (replace :id in the URL with the user id)
+###### id : the ID of the user you want to register the financial data in (replace :id in the URL with the user id)
 ###### File
-####### file: a xlsx file containg the columns:<br />
+###### file: a xlsx file containg the columns:<br />
 price : The price of the expense <br />
 typesOfExpenses : A descriptiong of the expense <br />
 date : The date of the expense <br />
@@ -95,7 +95,7 @@ The expense date must be written in YYYY-MM-DD format.
 ###### Will delete a registered expense
 ##### Requirements
 ###### Path
-####### userId : the ID of the user you want to get the financial data from (replace :userId in the URL with the user id) <br />
+###### userId : the ID of the user you want to get the financial data from (replace :userId in the URL with the user id) <br />
 financeId : the ID of the expense you want to delete (replace :financeId in the URL with the user id)
 <br /><br />
 
@@ -104,7 +104,7 @@ financeId : the ID of the expense you want to delete (replace :financeId in the 
 ###### Will return the total expenses of the current month, the total expenses of the curent year and the list of registered expenses
 ##### Requirements
 ###### Path
-####### userId : the ID of the user you want to get the financial data from (replace :userId in the URL with the user id)
+###### userId : the ID of the user you want to get the financial data from (replace :userId in the URL with the user id)
 <br /><br />
 
 
